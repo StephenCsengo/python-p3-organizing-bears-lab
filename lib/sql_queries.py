@@ -7,7 +7,7 @@ select_all_bears_names_and_orders_in_alphabetical_order = """
 """
 
 select_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest = """
-    SELECT bears.name, bears.age FROM bears WHERE alive = true ORDER BY bears.age ASC;
+    SELECT bears.name, bears.age FROM bears WHERE alive = 1 ORDER BY bears.age ASC;
 """
 
 select_oldest_bear_and_returns_name_and_age = """
